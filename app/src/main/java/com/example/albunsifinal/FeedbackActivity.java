@@ -28,12 +28,13 @@ public class FeedbackActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTitle("FEEDBACK");
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_feedback);
         text=findViewById(R.id.textbox);
         buton=findViewById(R.id.buton);
         test=findViewById(R.id.test);
         back=findViewById(R.id.back);
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_feedback);
+
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
