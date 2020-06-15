@@ -87,7 +87,8 @@ public class AddtoDB extends AppCompatActivity {
                     else
                         tipuriMufe+="Wall";
                 }
-
+                // **************
+                //
                 if (supercharger.isChecked()){
                     if (tipuriMufe!="")
                         tipuriMufe+=", Supercharger";
